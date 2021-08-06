@@ -1,0 +1,523 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    height:100vh;
+    background-color: rgb(206, 156, 156);
+
+
+}
+
+.encabezado{
+    background-color: rgb(170, 159, 159);
+    border: solid black;
+    width: 100%;
+    height: 100;
+ }
+
+
+ol{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+  }
+  
+  li{
+    list-style: none;
+    margin: 1px;
+    padding: 1px;
+    border: black solid 1px;
+    border-radius: 8px;
+  }
+  
+  li a{
+    text-decoration: none;
+    font-size: x-large;
+    background-color:rgb(233, 108, 108) ;
+    border-radius: 8px;
+      
+  }
+
+
+
+  .container{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-column-gap:20px;
+    align-self: center;
+    grid-template-areas:
+    "Servicio-1 Servicio-2 Servicio-3";
+   
+  }
+    
+    #Servicio-1 { grid-area: Servicio-1;
+   border:solid black ;
+  } 
+    
+    #Servicio-2 { grid-area: Servicio-2;
+    border:solid black;  
+   }
+    
+    #Servicio-3 { grid-area: Servicio-3;
+      border:solid black;
+   }
+  
+   .tGrid{
+       
+      font-size: 20px;
+      color: black;
+      text-align: center;
+      
+
+   }
+
+   .pGrid{
+     color: rgb(15, 15, 110);
+     font-family: 'Open Sans', sans-serif;
+     margin:15px;
+     max-width: 80%;
+     text-align: center;
+     padding-left: 20%;
+     padding-right: 20%;
+
+    }
+
+    .titulo{
+        color: rgb(250, 33, 33);
+         font-size: x-large;
+        text-align: center;
+
+
+    }
+
+    .titulo2{
+        color: blue;
+        font-size: x-large;
+        text-align: center;
+
+
+    }
+
+    
+    .grid{         
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+        grid-column-gap:20px;
+        align-self: center;
+        grid-template-areas:
+        "Home-1 Home-2";
+       
+      }
+        
+        #Home-1 { grid-area: Home-1;
+       border:solid black ;
+      } 
+        
+        #Home-2 { grid-area: Home-2;
+        border:solid black;  
+       }
+        
+      
+
+       .tgrid{
+           font-size: 20px;
+           color: rgb(15, 15, 110);
+           text-align: center;
+       }
+
+       .pgrid{
+           color: rgb(187, 64, 42);
+           font-family: 'Open Sans', sans-serif;
+           margin:15px;
+           max-width: 80%;
+           text-align: center;
+           padding-left: 20%;
+           padding-right: 20%;
+      
+
+
+       }
+
+       .imagenServicios{
+        display: block;
+        margin:auto;
+        width: 50%;
+        height: 50%;
+        
+
+       }
+
+       .imagenHorarios{
+        display: block;
+        margin: auto;
+        width: 50%;
+        height: 50%;
+
+
+       }
+
+       .imagenConsultorias{
+        display: block;
+        margin: auto;
+        width: 50%;
+        height: 50%;
+
+
+       }
+
+       .imagenInformacion{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 50%;
+        height: 50%;
+        
+
+
+       }
+
+       .imagenAtencion{
+        display: flex;
+        justify-content: center;   
+        margin: auto;
+        width: 50%;
+        height: 55%;
+
+
+       }
+
+       
+
+       .contacto{
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+        grid-column-gap:20px;
+        align-self: center;
+        grid-template-areas:
+        "Contacto-1 Contacto-2 ";
+       
+      }
+        
+        #Contacto-1 { grid-area: Contacto-1;
+       border:solid black ;
+      } 
+        
+        #Contacto-2 { grid-area: Contacto-2;
+        border:solid black;  
+       }
+      
+      
+       .tcon{
+         font-size:20px;
+         color: rgb(78, 19, 19);
+         text-align: center;
+        }
+       
+        .pcon{
+         color: rgb(50, 52, 63);
+         font-family: 'Open Sans', sans-serif;
+         margin: 15px;
+         max-width: 80%;
+         text-align: center;
+         padding-left: 20%;
+         padding-right: 20%;
+        
+          
+        }
+
+        .imagenContacto{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 50%;
+        height: 50%;
+          
+
+        }
+
+        .imagenRedessociales{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 50%;
+        height: 50%;
+
+        }
+
+        
+
+        .Precio{
+          display: grid;
+          justify-items: center;
+          justify-content: center;
+          grid-column-gap:20px;
+          align-self: center;
+          grid-template-areas:
+          "Precio-1 Precio-2 Precio-3";
+         
+        }
+          
+          #Precio-1 { grid-area: Precio-1;
+         border:solid black ;
+        } 
+          
+          #Precio-2 { grid-area: Precio-2;
+          border:solid black;  
+         }
+          
+          #Precio-3 { grid-area: Precio-3;
+            border:solid black;
+         }
+
+         .tpre{
+          font-size:20px;
+          color: rgb(221, 47, 70);
+          text-align: center;
+           
+
+         }
+
+         .ppre{
+          color: rgb(49, 133, 63);
+          font-family: 'Open Sans', sans-serif;
+          margin: 15px;
+          max-width: 80%;
+          text-align: center;
+          padding-left: 20%;
+          padding-right: 20%;
+
+
+         }
+
+         .imagenPrecio{
+          display: block;
+          margin: auto;
+          width: 50%;
+          height: 50%;
+          
+
+
+         }
+
+         .imagenDescuento{
+          display: block;
+          margin: auto;
+          width: 50%;
+          height: 50%;
+          
+  
+        }
+
+        .imagenTipodepago{
+          display: block;
+          margin: auto;
+          width: 50%;
+          height: 50%;
+
+
+        }
+
+        .zocalo{
+          margin: 2px;
+          background-color: rgb(173, 162, 162);
+          padding:1rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border: solid 2px;
+
+        }
+        .zocaloRedes{
+          
+
+        }
+
+        .direccion{
+          margin:0.7rem;
+          font-weight: 300;
+
+        }
+
+        i{
+            font-size: 2rem;
+            color: rgb(30, 53, 255);
+            margin: 0.2rem;
+
+        }
+   
+
+    @media(max-width:400px){
+      .tcon{
+        font-size:20px;
+        color: rgb(202, 38, 38);
+        text-align: left;
+       }
+
+       .pcon{
+        color: rgb(59, 72, 150);
+        font-family: 'Open Sans', sans-serif;
+        margin: 15px;
+        max-width: 80%;
+        text-align:left;
+        padding-left: 20%;
+        padding-right: 20%;
+       
+         
+       }
+
+       .tpre{
+        font-size:20px;
+        color: rgb(196, 48, 68);
+        text-align: left;
+         
+
+       }
+
+       .ppre{
+        color: rgb(84, 216, 106);
+        font-family: 'Open Sans', sans-serif;
+        margin: 15px;
+        max-width: 80%;
+        text-align: left;
+        padding-left: 20%;
+        padding-right: 20%;
+
+
+       }
+
+       .tgrid{
+        font-size: 20px;
+        color: rgb(209, 20, 45);
+        text-align: left;
+    }
+
+
+    .pgrid{
+      color: rgb(18, 215, 230);
+      font-family: 'Open Sans', sans-serif;
+      margin:15px;
+      max-width: 80%;
+      text-align: left;
+      padding-left: 20%;
+      padding-right: 20%;
+    }  
+
+    .tGrid{
+       
+      font-size: 20px;
+      color: black;
+      text-align: left;
+      
+
+   }
+
+   .pGrid{
+    color: rgb(15, 110, 70);
+    font-family: 'Open Sans', sans-serif;
+    margin:15px;
+    max-width: 80%;
+    text-align: right;
+    padding-left: 20%;
+    padding-right: 20%;
+
+   }
+
+   .imagenContacto{
+    display: none;
+   
+      
+
+    }
+
+    .imagenRedessociales{
+    display: none;
+    
+    }
+
+
+    .imagenPrecio{
+      display: none;
+    
+      
+
+
+     }
+
+     .imagenDescuento{
+      display: none;
+     
+      
+
+    }
+
+    .imagenTipodepago{
+      display:none;
+      
+
+    }
+
+    .imagenInformacion{
+      display: none;
+    
+      
+
+
+     }
+
+     .imagenAtencion{
+      display: none;
+      
+
+     }
+
+     .imagenServicios{
+      display: none;
+      
+      
+
+     }
+
+     .imagenHorarios{
+      display: none;
+      
+
+
+     }
+
+     .imagenConsultorias{
+      display: none;
+      
+
+
+     }
+
+     .titulo{
+      color:gray ;
+      font-size: x-large;
+      text-align: center;
+
+
+    }
+
+  .titulo2{
+      color: rgb(136, 136, 224);
+      font-size: x-large;
+      text-align: center;
+
+
+     }
+
+
+
+ 
+
+
+  }
